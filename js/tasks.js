@@ -12,10 +12,12 @@ const scoresMath = +prompt('Введите кол-во баллов по мат�
 const scoresRussian = +prompt('Введите кол-во баллов по русскому языку:');
 const scoresComputerScience = +prompt('Введите кол-во баллов по информатике:');
 
-const summ = scoresMath + scoresRussian + scoresComputerScience;
+const summa = scoresMath + scoresRussian + scoresComputerScience;
 
-if (summ >= 256) {
+if (summa >= 256) {
   console.log('Поздравляю, вы поступили на бюджет!');
+} else {
+  console.log('Вы не поступили на бюджет :(')
 }
 
 const amountMoney = +prompt('Какую сумму вы хотите снять?');

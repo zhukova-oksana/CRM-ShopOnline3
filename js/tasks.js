@@ -17,7 +17,7 @@ const summa = scoresMath + scoresRussian + scoresComputerScience;
 if (summa >= 256) {
   console.log('Поздравляю, вы поступили на бюджет!');
 } else {
-  console.log('Вы не поступили на бюджет :(')
+  console.log('Вы не поступили на бюджет :(');
 }
 
 const amountMoney = +prompt('Какую сумму вы хотите снять?');
@@ -25,5 +25,5 @@ const amountMoney = +prompt('Какую сумму вы хотите снять?
 if ((amountMoney % 100) === 0) {
   console.log('Поздравляем! Вы получите всю сумму на руки.');
 } else {
-  console.log('Увы! В банкомате нет купюр.')
+  console.log('Увы! В банкомате нет купюр.');
 }

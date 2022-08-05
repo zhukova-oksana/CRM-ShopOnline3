@@ -12,7 +12,6 @@ if (quantityGoods && priceGoods) {
   console.log('Тип данных поля "Цена товара"', typeof priceGoods);
 
   console.log(`На складе ${quantityGoods} единицы товара "${nameGoods}" на сумму ${quantityGoods * priceGoods} деревянных`);
-
 } else {
   console.log('Вы ввели некорректные данные');
 }
